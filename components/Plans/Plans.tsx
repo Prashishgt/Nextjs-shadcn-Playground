@@ -1,4 +1,6 @@
 import React from "react";
+import PlanOptions from "./PlanOptions";
+import PlansLayout from "./PlansLayout";
 
 const Plans = () => {
   return (
@@ -8,6 +10,12 @@ const Plans = () => {
         <p className="pt-4">
           Find the right package for your new company formation
         </p>
+      </div>
+      <div className="w-full flex flex-row justify-center gap-x-6 border  border-red-400">
+        <PlanOptions />
+      </div>
+      <div>
+        <PlansLayout />
       </div>
     </div>
   );
