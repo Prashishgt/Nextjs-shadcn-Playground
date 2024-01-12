@@ -42,7 +42,7 @@ const PlanOptions = () => {
           key={item.name}
           className={cn(
             item.selected && "bg-blue-800 text-white",
-            "mx-3 border border"
+            "mx-3 rounded-2xl"
           )}
           variant="outline"
           onClick={() => handleButtonClick(item.name)}
